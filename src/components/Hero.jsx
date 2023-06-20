@@ -10,7 +10,7 @@ const Hero = () => {
           onClick={() => {
             window.open("https://github.com/engijlr/summarizer-ai");
           }}
-          className="black_btn"
+          className="bg-blue-500 hover:bg-transparent text-white hover:text-blue-500 border hover:border-blue-500  font-bold py-2 px-4 rounded-full"
         >
           GitHub
         </button>
