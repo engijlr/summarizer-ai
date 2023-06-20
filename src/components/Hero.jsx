@@ -17,10 +17,8 @@ const Hero = () => {
       </nav>
 
       <h1 className="head_text">
-        <span className="text-blue-600">
-          Summify: <br />
-        </span>
-        The AI-Powered Article Summarizer
+        Summify: <br />
+        <span className="blue_gradient">The AI-Powered Article Summarizer</span>
       </h1>
       <h2 className="desc">
         Discover the future of efficient information consumption with our
