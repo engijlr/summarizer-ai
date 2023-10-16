@@ -4,13 +4,13 @@ const Hero = () => {
   return (
     <header className="w-full flex justify-center items-center flex-col">
       <nav className="flex justify-between items-center w-full mb-10 pt-3">
-        <img src={logo} className="w-28 object-contain" />
+        <img src={logo} className="w-12 object-contain" />
         <button
           type="button"
           onClick={() => {
             window.open("https://github.com/engijlr/summarizer-ai");
           }}
-          className="bg-blue-500 hover:bg-transparent text-white hover:text-blue-500 border hover:border-blue-500  font-bold py-2 px-4 rounded-full"
+          className="black_btn"
         >
           GitHub
         </button>
